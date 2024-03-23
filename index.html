@@ -406,7 +406,59 @@
                 </div>
                 <div class="timeline-text">
                     <h4>Work Done</h4>
-                    <p> otions and Swings</p>
+                    <p> OCT (Optical Coherence Tomography) Data:
+
+OCT captures retinal images used for diagnosing various retinal diseases like DME, AMD, RVO.
+Each OCT scan comprises 128 B-scan images, each of size 1024 * 512 pixels.
+The goal is to classify and visualize fluids like SRF, IRF, and PED, associated with retinal diseases.
+Convivo Brain Imaging:
+
+Convivo captures brain images during neurosurgery to detect tumors in real-time.
+Thousands of images are captured, making manual review time-consuming.
+Five types of brain cells are classified: Giant Cells, Adenoid Cells, Fibroid, Necrotic regions, and Hypercellular regions.
+Speckle noise, inherent in real-time imaging, needs removal for accurate analysis.
+Noise Removal Techniques:
+
+Speckle noise removal involves addressing issues like Gamma Distribution and Poisson noise using techniques like Anscombe Transform.
+UNet architecture is employed for noise removal, leveraging its segmentation capabilities.
+Evaluation Metrics:
+
+PSNR (Peak Signal-to-Noise Ratio) and SSIM (Structural Similarity Index) are used to evaluate denoising performance.
+Multi-label classification metrics like F1-score and Hamming Loss are employed due to the simultaneous presence of multiple labels.
+Visualization Techniques:
+
+Class Activation Map (CAM) and Grad-CAM are used for understanding network learning and identifying important image regions.
+Guided Grad-CAM integrates guided backpropagation for highlighting crucial image features.
+Performance Metrics and Use Case:
+
+Performance metrics include IOU, Dice Score, and Soft-F1 loss for evaluating model performance.
+Business impacts are assessed in terms of patient outcomes, time efficiency, operational efficiency, cost savings, patient satisfaction, revenue growth, market share, competitive advantage, and cost-benefit ratio.
+User
+Sumaries it more. Make it more compact and small
+ChatGPT
+OCT Data Analysis:
+
+OCT scans retina images for diagnosing diseases like DME, AMD, RVO.
+Each scan has 128 B-scan images (1024 * 512 pixels).
+Goal: Classify and visualize fluids associated with retinal diseases (SRF, IRF, PED).
+Convivo Brain Imaging:
+
+Captures brain images during surgery to detect tumors.
+Five cell types classified: Giant, Adenoid, Fibroid, Necrotic, Hypercellular.
+Focus on real-time noise removal for accurate analysis.
+Noise Removal Techniques:
+
+Address speckle noise using methods like Anscombe Transform.
+UNet architecture used for noise reduction leveraging its segmentation capabilities.
+Evaluation and Visualization:
+
+PSNR, SSIM for denoising assessment.
+Multi-label classification metrics like F1-score utilized.
+Visualization via CAM and Grad-CAM to identify crucial image regions.
+Performance Metrics and Use Case:
+
+Metrics include IOU, Dice Score, Soft-F1 loss for model evaluation.
+Business impact assessed in terms of patient outcomes, efficiency, cost savings, and revenue growth. </p>
                 </div>
                 <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
                     <h2>Course Work</h2>
